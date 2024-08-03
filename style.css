@@ -42,11 +42,16 @@ body{
     font-size: 1.4rem;
 
 }
-.logo1{
+.navBar_container .logo1{
     height: 5rem;
     /* width: 10rem; */
     margin-left: 2rem;
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
+    margin-right: 1rem;
+}
+.navBar_container .logo1{
+    padding: 6px 0;
+    border-radius: 1.5rem;
 }
 .navBar_container span{
     position: absolute;
@@ -806,7 +811,7 @@ body{
 .polygon3 .row3 .col .logo{
     /* margin-top: 4rem; */
     top: 10px;
-    width: 15rem;
+    width: 30rem;
     display: inline-block;
     position: relative;
     bottom: 30px;
